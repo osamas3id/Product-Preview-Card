@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 14px;
+  color: hsl(158, 36%, 37%)
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+
+
+.all-sec {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  width: 340.157px;
+  border-radius: 10px;
+}
+
+.sec-image {
+  width: 340.157px;
+  height: 226.77px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.text-container {
+  padding: 0 24px;
+}
+
+.sec-h1 h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0 0 16px 0;
+}
+
+.first-p {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 16px 0 8px 0;
+
+}
+
+.second-p {
+  line-height: 1.8;
+  margin: 0 0 16px 0;
+}
+
+
+.price {
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+
+.new-price {
+  flex: 1;
+}
+
+.new-price h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.previous-price {
+  flex: 2;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 0 16px;
+}
+
+.cta {
+  margin: 0 0 24px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 16px 96px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(72, 153, 131);
+  cursor: pointer;
+}
